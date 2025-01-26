@@ -1,5 +1,5 @@
 import './App.css';
-import { lazy, Suspense } from 'react';
+import { lazy} from 'react';
 
 // Component imports
 const NavBar = lazy(() => import('./components/NavBar'));
@@ -19,7 +19,6 @@ const Contact = lazy(() => import('./components/Contact'));
 function App() {
   return (
     <div className="app-container">
-      <Suspense fallback={<div>Loading...</div>}>
         <NavBar />
         <main>
           <Home />
@@ -31,7 +30,6 @@ function App() {
           <Achievements />
           <Contact />
         </main>
-      </Suspense>
     </div>
   );
 }
