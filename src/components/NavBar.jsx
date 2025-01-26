@@ -29,7 +29,7 @@ const NavBar = () => {
         },
         {
             id: 6,
-            link: 'achievements'
+            link: 'achievement'
         },
         {
             id: 7,
@@ -63,7 +63,7 @@ const NavBar = () => {
                             <FaTimes size={30} />
                         </Link> 
                         {link.map(({ id, link }) => (
-                            <li className='px-4 cursor-pointer capitalize py-6 text-4xl '>
+                            <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl '>
                                 <Link onClick={() => setNav(!nav)} to={link} smooth={true} duration={500} spy={true} exact='true' offset={-80}>{link}</Link>
                             </li>
                         ))}
