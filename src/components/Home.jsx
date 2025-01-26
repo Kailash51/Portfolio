@@ -50,16 +50,16 @@ const Home = () => {
                     />
                     
                     <h2 data-aos="fade-in" data-aos-duration="1000" className='text-4xl sm:text-6xl font-bold text-white'>
-                        Kailash | <span className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black'>Front-End Developer</span>
+                        Kailash Maurya | <span className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black'>Front-End Developer</span>
                     </h2>
                     
-                    <p data-aos="fade-in" data-aos-delay="400" data-aos-duration="2000" className='text-gray-400 py-4 max-w-md w-full'>
-                        I'm a B.E 3rd year Student of Dr. Bhimrao Ambedkar University, Agra. With expertise in Data Structures and Algorithms (DSA), Development in JavaScript, ReactJs, MongoDB, MySQL & much more. As a dynamic and forward-thinking programmer, I'm committed to staying up to date with the latest trends and technologies in the field.
+                    <p data-aos="fade-in" data-aos-delay="400" data-aos-duration="2000" className='text-gray-300 py-4 max-w-xl w-full'>
+                    I'm a passionate Front-End Developer and AI enthusiast currently pursuing my B.E. in Computer Science from Dr. Bhimrao Ambedkar University, Agra. With hands-on experience in building scalable applications at Infosys and ByteSigma, I specialize in React, Python, and AI/ML-driven solutions. My expertise spans 500+ DSA problems (LeetCode/GfG), React-based web apps with 30-40% performance optimization, and machine learning models achieving up to 95% accuracy. Currently architecting NLP-powered healthcare systems and multilingual chatbots, I thrive on turning complex challenges into efficient, user-centric tech solutions.
                     </p>
 
                     <div className='flex flex-row gap-2'>
                         <Link 
-                            to="experience" 
+                            to="experiences" 
                             spy={true}
                             smooth={true} 
                             duration={500} 

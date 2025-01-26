@@ -19,11 +19,16 @@ const About = () => {
                 </div>
 
                 <p data-aos="slide-up" data-aos-duration="500" className='text-xl mt-5 ease-in fade-in'>
-                    I embarked  my journey as a B.E Computer Science & Engineering student at Dr. Bhimrao Ambedkar University, Agra in 2021. Along the way, I fearlessly explored various fields, including Graphic Designing, Content Creation, Freelancing, and Sports. I delved into the world of cutting-edge technologies, such as C++, Java, React, Flutter, and SQL. 
+                Hey! I’m Kailash 👋
+A developer who believes code should solve problems, not create them. My journey began in 2021 when I started my engineering degree, but it truly took flight when I built AlgoZip – a Huffman encoding-based file compressor that shrinks data by 60-70%. Since then, I’ve:
+
+🔥 Engineered AI systems like Infosys’ healthcare app (90% urgency classification accuracy)
+🚀 Scaled platforms at ByteSigma, boosting user engagement by 40% with React/Zoho integrations
+🏆 Led teams to 1st place among 3,000 teams at Hack-a-Sol 3.0. 
                 </p>
                 <br />
                 <p data-aos="slide-up" data-aos-duration="500" className='text-xl mt-5 ease-in fade-in'>
-                I've worked for few projects for my clients as well as my personal projects. I also contributed for the GSOC. I have a Instagram page (kailash__51). I have learning attitude and growth mindset which helps me to collaborate with people and work for the society.
+                🏏 Sports Strategist & Puzzle Architect: A cricket fanatic who deciphers game tactics like algorithms, analyzing bowling strategies and mastering the nuances of the sport. A badminton player who thrives on balancing agility with patience, I bring the same precision and focus to solving LeetCode hard problems, logic puzzles, and real-world system design challenges. Breaking down complexity, whether on the field or in problem-solving, is my superpower.
                 </p>
                 
                 <div data-aos="zoom-in" data-aos-duration="500" className='mb-20 fade-in flex mx-auto items-center justify-center hover:scale-105 duration-300 rounded bg-gradient-to-b from-cyan-500 to-blue-500 lg:w-1/5 md:w-1/5 w-2/4 h-10 text-center cursor-pointer mt-10 gap-2'>
