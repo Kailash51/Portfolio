@@ -27,14 +27,14 @@ const Projects = () => {
       id: 2,
       src: RoadConnectivity,
       desc: "Optimizing road planning in rural, hilly regions will enhance connectivity, drive economic growth, and improve access to vital services.", 
-      demo: "https://hack-a-sol-3-0-9dsj.onrender.com/",
+      demo: "https://hills-to-highways.onrender.com/",
       code: "https://github.com/Kailash51/Hack-A-Sol-3.0"
     },
     {
       id: 3,
       src:Compress, 
       desc: "File compression involves the process of compressing and decompressing data using Huffman coding, an efficient algorithm for reducing file sizes...",
-      demo: "https://github.com/Kailash51/AlgoZip",
+      demo: "https://algo-zip.vercel.app/",
       code: "https://github.com/Kailash51/AlgoZip"
     },
     {
@@ -61,9 +61,9 @@ const Projects = () => {
   ]
 
   return (
-    <div name="projects" className='py-5 bg-gradient-to-b from-gray-800 to-black w-full h-full text-white md:h-screen'>
+    <div name="projects" className='pt-12 bg-gradient-to-b from-gray-800 to-black w-full min-h-screen text-white'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-        <div className='mt-20'>
+        <div className='mb-8'>
           <h2 className='text-4xl font-bold inline border-b-4 border-gray-400'>Projects</h2>
           <p className='py-6'>Check out some of my work </p>
         </div>

@@ -75,9 +75,9 @@ const Skills = () => {
     ]
 
     return (
-        <div name="skills" className='py-10 bg-gradient-to-b from-black to-gray-800 text-white w-full h-full' >
-            <div className='py-10 max-w-screen-lg max-h-screen-lg p-4 mx-auto flex flex-col justify-center w-full '>
-                <div className='py-10 pb-10 mt-20'>
+        <div name="skills" className='pt-20 pb-20 bg-gradient-to-b from-black to-gray-800 text-white w-full h-full' >
+            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full '>
+                <div className='mb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-400  ' >Skills</p>
                     <p className='py-5'>This are the technologies I've worked with</p>
                 </div>

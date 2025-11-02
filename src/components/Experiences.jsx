@@ -8,15 +8,15 @@ const Experiences = () => {
     }, [])
 
     return (
-        <div name="experiences" className='w-full h-auto bg-gradient-to-b from-black to-gray-800 text-white pb-20'>
+        <div name="experiences" className='w-full h-auto bg-gradient-to-b from-black to-gray-800 text-white pt-10 pb-5'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-auto'>
-                <div className='pb-4'>
-                    <h2 className='text-4xl font-bold inline border-b-4 border-blue-500 hover:border-purple-500 transition-colors duration-300'>Experiences</h2>
+                <div className='mb-3'>
+                    <h2 className='text-4xl font-bold inline border-b-4 border-blue-500 hover:border-purple-500 transition-colors duration-200'>Experiences</h2>
                     <p className='py-6 text-gray-300'>My professional journey and contributions:</p>
                 </div>
 
                 <div className='space-y-8'>
-                    <div data-aos="fade-up" className='bg-gradient-to-r from-gray-900 to-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-700 hover:border-blue-500'>
+                    {/* <div data-aos="fade-up" className='bg-gradient-to-r from-gray-900 to-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-700 hover:border-blue-500'>
                         <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
                             <h3 className='text-2xl font-bold text-blue-400'>Infosys</h3>
                             <h6 className='text-purple-400 font-medium'>November 2024 – January 2025</h6>
@@ -39,12 +39,12 @@ const Experiences = () => {
                                 <span>Implemented high-performance patient case tagging system using TensorFlow.js, achieving sub-200ms response times and streamlining nurse workflows through seamless React Native and Node.js integration.</span>
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
 
                     <div data-aos="fade-up" className='bg-gradient-to-r from-gray-900 to-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-700 hover:border-blue-500'>
                         <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
                             <h3 className='text-2xl font-bold text-blue-400'>ByteSigma Technologies Pvt. Ltd.</h3>
-                            <h6 className='text-purple-400 font-medium'>July 2024 – August 2024</h6>
+                            <h6 className='text-purple-400 font-medium'>July 2024 – September 2024</h6>
                         </div>
                         <div className="flex flex-col md:flex-row md:justify-between mb-4">
                             <p className='text-emerald-400 font-semibold'>Front-End Developer Intern</p>
